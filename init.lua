@@ -22,3 +22,7 @@ vim.opt.statusline = " %F %y"
                   .. "%{&bomb?'-BOM':''}]"
                   .. "%m %="
                   .. "(%l, %c) : %L    0x%04B"
+
+-- folds
+vim.opt.foldmethod = "indent"
+vim.opt.foldenable = false
