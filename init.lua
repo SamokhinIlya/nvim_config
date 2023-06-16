@@ -23,6 +23,5 @@ vim.opt.statusline = " %F %y"
                   .. "%m %="
                   .. "(%l, %c) : %L    0x%04B"
 
--- folds
 vim.opt.foldmethod = "indent"
-vim.opt.foldenable = false
+vim.opt.foldenable = false    -- unfold by default
